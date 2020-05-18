@@ -1,0 +1,22 @@
+M851 X6.0 Y0; // Define the offset
+// M500;        // Store the settings
+
+G28 ;Home
+M140 S{material_bed_temperature_layer_0} ;set bed temperature
+M190 S{material_bed_temperature_layer_0} ;wait for bed temperature
+G28 ;Home
+
+M104 S{material_print_temperature_layer_0} ;set hotend temperature
+G29 ; Auto bed-level
+G92 E0 ; Reset Extruder
+
+G1 Z15.0 F3000 ;Move Z Axis up
+M109 S{material_print_temperature_layer_0} ;wait for hotend temperature
+
+G1 X20.1 Y200.0 Z0.3 F1500.0 E15 ; draw 1st line
+G1 X20.4 Y200.0 Z0.3 F5000.0 ; move to side a little
+G1 X20.4 Y20 Z0.3 F1500.0 E30 ; draw 2nd line
+G92 E0 ; reset extruder
+G1 Z1.0 F3000 ; move z up little to prevent scratching of surface
+
+M117 Print Engaged;
