@@ -1,0 +1,161 @@
+DisplayLayerProgress:
+  available: false
+  error: null
+  hash: bd607770148f226c2d07fd728825d2f5
+  information:
+    local:
+      name: 1.24.0
+      value: 1.24.0
+    needs_online: true
+    remote:
+      name: V1.24.0
+      release_notes: https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/releases/tag/1.24.0
+      value: 1.24.0
+  online: true
+  possible: true
+  timestamp: 1605547008.730517
+TheSpaghettiDetective:
+  available: true
+  error: null
+  hash: f63eb5164d80297953d0ea93ec135fbc
+  information:
+    local:
+      name: 1.4.3
+      value: 1.4.3
+    needs_online: true
+    remote:
+      name: 1.4.4
+      release_notes: https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective/releases/tag/1.4.4
+      value: 1.4.4
+  online: true
+  possible: true
+  timestamp: 1605547008.757161
+__version: 1.4.2
+anywhere:
+  available: false
+  error: null
+  hash: c62a7c24b150ddc9788a8a4fdbf5ee75
+  information:
+    local:
+      name: 1.1.1
+      value: 1.1.1
+    needs_online: true
+    remote:
+      name: Python 3 compatibility
+      release_notes: https://github.com/kennethjiang/OctoPrint-Anywhere/releases/tag/1.1.1
+      value: 1.1.1
+  online: true
+  possible: true
+  timestamp: 1604846512.351451
+bedlevelvisualizer:
+  available: false
+  error: null
+  hash: 1486e8704985ccab9dd6b6d7d977ea4c
+  information:
+    local:
+      name: 0.1.15
+      value: 0.1.15
+    needs_online: true
+    remote:
+      name: 0.1.15
+      release_notes: https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/releases/tag/0.1.15
+      value: 0.1.15
+  online: true
+  possible: true
+  timestamp: 1605547009.13858
+enclosure:
+  available: false
+  error: null
+  hash: 19775e7232dcc6fc11f8a2803b80b721
+  information:
+    local:
+      name: 4.13.1
+      value: 4.13.1
+    needs_online: true
+    remote:
+      name: Small Fix
+      release_notes: https://github.com/vitormhenrique/OctoPrint-Enclosure/releases/tag/4.12
+      value: '4.12'
+  online: true
+  possible: true
+  timestamp: 1605547009.039259
+file_check:
+  available: false
+  error: null
+  hash: 78f7c4e6b507b4641b05836fcf67cb5e
+  information:
+    local:
+      name: 2020.8.7
+      value: 2020.8.7
+    needs_online: true
+    remote:
+      name: 2020.08.07
+      release_notes: https://github.com/OctoPrint/OctoPrint-FileCheck/releases/tag/2020.08.07
+      value: 2020.08.07
+  online: true
+  possible: true
+  timestamp: 1605547009.023805
+firmware_check:
+  available: false
+  error: null
+  hash: 52896c5879b2863c4b73f1a1f2a99568
+  information:
+    local:
+      name: 2020.9.23
+      value: 2020.9.23
+    needs_online: true
+    remote:
+      name: 2020.09.23
+      release_notes: https://github.com/OctoPrint/OctoPrint-FirmwareCheck/releases/tag/2020.09.23
+      value: 2020.09.23
+  online: true
+  possible: true
+  timestamp: 1605547008.724747
+octopod:
+  available: false
+  error: null
+  hash: 0160b1377f31d8fd8110f555f93582ff
+  information:
+    local:
+      name: 0.2.9
+      value: 0.2.9
+    needs_online: true
+    remote:
+      name: 0.2.9
+      release_notes: https://github.com/gdombiak/OctoPrint-OctoPod/releases/tag/0.2.9
+      value: 0.2.9
+  online: true
+  possible: true
+  timestamp: 1605547008.71954
+octoprint:
+  available: false
+  error: null
+  hash: bc719898904956ea98d74f99a4a6984e
+  information:
+    local:
+      name: 1.4.2
+      value: 1.4.2
+    needs_online: true
+    remote:
+      name: 1.4.2 (stable release)
+      release_notes: https://github.com/OctoPrint/OctoPrint/releases/tag/1.4.2
+      value: 1.4.2
+  online: true
+  possible: true
+  timestamp: 1605547009.181733
+octovox:
+  available: false
+  error: null
+  hash: 2bc20ce326d820bc18eb55b679e043cd
+  information:
+    local:
+      name: 0.1.6
+      value: 0.1.6
+    needs_online: true
+    remote:
+      name: Update for Python3/OctoPrint 1.4 Compatibility
+      release_notes: https://github.com/johnnyruz/OctoPrint-OctoVox/releases/tag/0.1.6
+      value: 0.1.6
+  online: true
+  possible: true
+  timestamp: 1605547008.721124

@@ -1,0 +1,12 @@
+ollivander:
+    active: true
+    apikey: 1D6A0209376E447D9F4BA86F9023AD1C
+    groups:
+    - admins
+    - users
+    password: 3e864b1403988ddb7882128d52bcfdee5012dd55e652428717aac88c41081db7ea1d4218a2812893f899f3eaefd49594594a4cce539d9c5786374c710165b863
+    permissions: []
+    roles:
+    - user
+    - admin
+    settings: {}

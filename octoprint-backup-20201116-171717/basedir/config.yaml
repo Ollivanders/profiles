@@ -1,0 +1,157 @@
+accessControl:
+    salt: GC1ngMCMwZKDiq3GwelSPNKTM3uvNX6w
+api:
+    key: 3E25DF6241A94522B2D7A55EA05378EF
+plugins:
+    announcements:
+        _config_version: 1
+        channels:
+            _blog:
+                read_until: 1604583000
+            _important:
+                read_until: 1521111600
+            _octopi:
+                read_until: 1604571600
+            _plugins:
+                read_until: 1604815200
+            _releases:
+                read_until: 1605018600
+    bedlevelvisualizer:
+        _config_version: 1
+        command: "G28\nM155 S30\t\t; set temperature reporting delay, use a value\
+            \ longer than the time it takes for your leveling command to complete.\n\
+            @BEDLEVELVISUALIZER\t; instruct plugin to start recording responses from\
+            \ printer.\nG29 T\t\t\t; report the bed leveling mesh points.\nM155 S3\t\
+            \t\t; set the temperature reporting delay back to a shorter time span."
+        mesh_timestamp: 08/11/2020, 23:01:16
+        show_webcam: true
+        stored_mesh:
+        -   - '-0.357'
+            - '-0.273'
+            - '-0.268'
+            - '-0.278'
+            - '-0.176'
+        -   - '-0.094'
+            - '-0.140'
+            - '-0.130'
+            - '-0.131'
+            - '-0.016'
+        -   - '+0.074'
+            - '+0.029'
+            - '+0.044'
+            - '+0.039'
+            - '+0.099'
+        -   - '+0.134'
+            - '+0.068'
+            - '+0.082'
+            - '+0.084'
+            - '+0.177'
+        -   - '+0.222'
+            - '+0.171'
+            - '+0.182'
+            - '+0.166'
+            - '+0.241'
+        stored_mesh_x:
+        - 0
+        - 55
+        - 110
+        - 165
+        - 220
+        stored_mesh_y:
+        - 0
+        - 55
+        - 110
+        - 165
+        - 220
+        stored_mesh_z_height: 300
+    cura:
+        cura_engine: /usr/local/bin/cura_engine
+    discovery:
+        publicPort: 80
+        upnpUuid: ebed5e72-2fb0-46a3-87db-38520f28583d
+    enclosure:
+        _config_version: 6
+        rpi_inputs:
+        -   action_type: output_control
+            controlled_io: null
+            controlled_io_set_value: low
+            ds18b20_serial: ''
+            edge: fall
+            filament_sensor_enabled: true
+            filament_sensor_timeout: 120
+            gpio_pin: 0
+            index_id: 1
+            input_pull_resistor: input_pull_up
+            input_type: gpio
+            label: Input 1
+            printer_action: filament
+            temp_sensor_address: ''
+            temp_sensor_humidity: ''
+            temp_sensor_i2cbus: 1
+            temp_sensor_navbar: true
+            temp_sensor_temp: ''
+            temp_sensor_type: DS18B20
+            use_fahrenheit: false
+    errortracking:
+        unique_id: 286372f1-2728-4ac0-bcf6-ec555deb4c34
+    gcodeviewer:
+        _config_version: 1
+    octopod:
+        _config_version: 9
+        bed_target_temp_hold: '70'
+        ifttt_name: Ava
+        tokens:
+        -   apnsToken: 75EB3444CEE2588B76FF14C57FE20A58501CF36156B53ACB2AE0D30CF7DCD4D8
+            date: 11/08/20 23:05:32
+            deviceName: Mooncake
+            languageCode: en
+            printerID: x-coredata://890D60CA-398A-4ADF-9B7C-44D4A3A7341A/Printer/p1
+            printerName: Ava
+    octovox:
+        printer_is_registered: true
+        printer_last_update_result: 2020-11-15 22:26:27.201387
+        printer_name: Ava
+        printer_uid: d1ebd1c690c647859a693bb61878cf70
+    softwareupdate:
+        _config_version: 8
+    thespaghettidetective:
+        auth_token: b825f57282d0db3eb189
+        sentry_opt: asked
+    tracking:
+        enabled: false
+        unique_id: f39ac311-7268-472f-a8d2-a5519a899ebb
+    virtual_printer:
+        _config_version: 1
+printerProfiles:
+    default: _default
+serial:
+    autoconnect: true
+server:
+    commands:
+        serverRestartCommand: sudo service octoprint restart
+        systemRestartCommand: sudo shutdown -r now
+        systemShutdownCommand: sudo shutdown -h now
+    firstRun: false
+    onlineCheck:
+        enabled: true
+    pluginBlacklist:
+        enabled: true
+    secretKey: aYieADXSBafFC2plUnvKV0PBseve0R9N
+    seenWizards:
+        corewizard: 3
+        thespaghettidetective: 2
+        tracking: null
+temperature:
+    profiles:
+    -   bed: 100
+        chamber: null
+        extruder: 210
+        name: ABS
+    -   bed: 60
+        chamber: null
+        extruder: 180
+        name: PLA
+webcam:
+    ffmpeg: /usr/bin/ffmpeg
+    snapshot: http://127.0.0.1:8080/?action=snapshot
+    stream: /webcam/?action=stream
